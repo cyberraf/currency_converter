@@ -19,7 +19,7 @@ def convert_currency(base):
     
 base = input("Enter the base currency (e.g. USD) or 'q' to quit: ").upper()
 
-data = convert_currency(base)
+data = convert_currency(str(base)).strip
 del data[base]
 
 for currency, value in data.items():
