@@ -24,3 +24,5 @@ del data[base]
 
 for currency, value in data.items():
     print(f"{currency}: {value}")
+    
+    #this is a comment test for grafana
